@@ -13,25 +13,30 @@ namespace S3FunctionsMethods
             Console.Write("Input something: ");
             var input = Console.ReadLine();
             int output = 0;
-
+            bool errorOccured = false;
             try
             {
                 output = ConvertStringToInt(input);
             }
             catch (FormatException fe)
             {
+                errorOccured = true;
                 Console.WriteLine($"Format Error: {fe.Message}");
             }
             catch (OverflowException oe)
             {
+                errorOccured = true;
                 Console.Error.WriteLine($"Overflow Error: {oe.Message}");
             }
             finally
             {
-
+                Console.WriteLine("This is called from Finally");
             }
-            
-            Console.WriteLine(output);
+
+            if (errorOccured == false)
+            {
+                Console.WriteLine($"No Error: {output}");
+            }
         }
 
         public static int ConvertStringToInt(string input)
