@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2DataTypesAndVariables", "DataTypesAndVariables\S2DataTypesAndVariables.csproj", "{4215ADD4-67CF-4CC6-B7F1-CCF9EC3BAC02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FunctionsMethods", "S3FunctionsMethods\S3FunctionsMethods.csproj", "{7D2713B9-0263-409B-8DD1-059CEBEE06B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3FunctionsMethods", "S3FunctionsMethods\S3FunctionsMethods.csproj", "{7D2713B9-0263-409B-8DD1-059CEBEE06B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4MakingDecisions", "S4MakingDecisions\S4MakingDecisions.csproj", "{F882969C-92E1-4085-92D4-3B479DA072A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7D2713B9-0263-409B-8DD1-059CEBEE06B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2713B9-0263-409B-8DD1-059CEBEE06B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2713B9-0263-409B-8DD1-059CEBEE06B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F882969C-92E1-4085-92D4-3B479DA072A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F882969C-92E1-4085-92D4-3B479DA072A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F882969C-92E1-4085-92D4-3B479DA072A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F882969C-92E1-4085-92D4-3B479DA072A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

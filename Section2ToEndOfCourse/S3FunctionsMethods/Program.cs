@@ -28,8 +28,13 @@
 //V49UserInput.Lesson();
 
 // Try Catch Finally
-Console.WriteLine("==> Try Catch and Finally");
+//Console.WriteLine("==> Try Catch and Finally");
 
-V50TryCatchAndFinally.Lesson();
+//V50TryCatchAndFinally.Lesson();
+
+// Operators
+Console.WriteLine("==> Operators");
+
+V51Operators.Lesson();
 
 Console.Read();
