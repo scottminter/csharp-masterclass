@@ -8,23 +8,42 @@ namespace S6ObjectOrientedProgramming
 {
     public class Car
     {
-        // Member variables
+        // Member variables/fields
         // access modifier private
         private string _name;
         private int _hp;
         private string _color;
+        private int _maxSpeed;
 
-        public void SetName(string name)
+        // Auto implemented property
+        public int MaxSpeed
         {
-            if (!String.IsNullOrEmpty(name))
+            set
             {
-                _name = name;
+                _maxSpeed = value;
             }
+        } // with { get; set; } this will automatically create a private _maxSpeed field
+
+        // public properties
+        public string Name
+        {
+            get { return _name; } // get accessor
+            set
+            {
+                _name = value != String.Empty ? value : "Some Default Value";
+            } // set accessor
         }
 
-        public string GetName()
+        public int Hp
         {
-            return _name;
+            get { return _hp; }
+            set { _hp = value; }
+        }
+
+        public string Color
+        {
+            get { return _color; }
+            set { _color = value; }
         }
 
         // default constructor
@@ -33,15 +52,15 @@ namespace S6ObjectOrientedProgramming
             _name = "Generic Car";
             _hp = 0;
             _color = "No Color";
+            _maxSpeed = 0;
         }
 
-        public Car(string name, int hp = 0, string color = "black")
+        public Car(string name, int hp = 0, string color = "black", int maxSpeed = 0)
         {
             _name = name;
             _hp = hp;
             _color = color;
-
-            Console.WriteLine($"{_name} was created.");
+            _maxSpeed = maxSpeed;
         }
 
         public void Drive()
@@ -58,7 +77,8 @@ namespace S6ObjectOrientedProgramming
         {
             Console.WriteLine($"The {_color} " +
                               $"{_name} has " +
-                              $"{_hp} horsepower.");
+                              $"{_hp} horsepower " +
+                              $"and a maximum speed of {_maxSpeed}.\n");
         }
     }
 }
