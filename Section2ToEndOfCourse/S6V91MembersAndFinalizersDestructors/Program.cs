@@ -6,7 +6,13 @@ namespace S6V91MembersAndFinalizersDestructors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var m1 = new Members();
+            m1.Introducing(true);
+
+
+
+
+            Console.Read();
         }
     }
 }

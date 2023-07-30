@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S6ObjectOrientedProgramming
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S6V82VsShortcuts", "S6V82VsShortcuts\S6V82VsShortcuts.csproj", "{AD048631-E839-465E-BC52-1C608DBC2B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6V91MembersAndFinalizersDestructors", "S6V91MembersAndFinalizersDestructors\S6V91MembersAndFinalizersDestructors.csproj", "{DEFDDF9A-6200-4CC2-8D2B-A4FD54FB7838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S6V91MembersAndFinalizersDestructors", "S6V91MembersAndFinalizersDestructors\S6V91MembersAndFinalizersDestructors.csproj", "{DEFDDF9A-6200-4CC2-8D2B-A4FD54FB7838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7CollectionsInCSharp", "S7CollectionsInCSharp\S7CollectionsInCSharp.csproj", "{B287A72C-6063-44BD-8A39-D06A646C5AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{DEFDDF9A-6200-4CC2-8D2B-A4FD54FB7838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEFDDF9A-6200-4CC2-8D2B-A4FD54FB7838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEFDDF9A-6200-4CC2-8D2B-A4FD54FB7838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B287A72C-6063-44BD-8A39-D06A646C5AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B287A72C-6063-44BD-8A39-D06A646C5AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B287A72C-6063-44BD-8A39-D06A646C5AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B287A72C-6063-44BD-8A39-D06A646C5AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
