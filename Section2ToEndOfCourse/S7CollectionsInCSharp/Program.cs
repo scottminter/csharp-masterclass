@@ -37,7 +37,10 @@ Console.WriteLine("Section 7: Collections in C#\n");
 //Console.WriteLine("==> Generic and Non-Generic Collections");
 //V110GenericAndNonGenericCollections.Lesson();
 
-Console.WriteLine("==> ArrayLists");
-V111ArrayLists.Lesson();
+//Console.WriteLine("==> ArrayLists");
+//V111ArrayLists.Lesson();
+
+Console.WriteLine("==> Hashtables");
+V113HashTables.Lesson();
 
 Console.Read();
