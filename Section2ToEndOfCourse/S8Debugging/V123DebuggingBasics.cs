@@ -14,23 +14,49 @@ namespace S8Debugging
             }
         }
 
+        /// <summary>
+        /// This method returns a list of friends with the shortest names.  This number
+        /// of friends in this list is equal to the count param
+        /// </summary>
+        /// <param name="list"></param>
+        /// <param name="count"></param>
+        /// <returns></returns>
         public static List<string> GetPartyFriends(List<string> list, int count)
         {
+            if (list == null)
+            {
+                throw new ArgumentNullException("list", "The list cannot be null.");
+            }
+
+            // need to make a copy of list
+            var buffer = new List<string>(list);
             var partyFriends = new List<string>();
 
-            while (partyFriends.Count < count)
+            // use count or partyFriends.Count whichever is less
+            var numberOfFriends = count > list.Count ? list.Count : count;
+            while (partyFriends.Count < numberOfFriends)
             {
-                var currentFriend = GetPartyFriend(list);
+                var currentFriend = GetPartyFriend(null);
                 partyFriends.Add(currentFriend);
-                list.Remove(currentFriend);
+                buffer.Remove(currentFriend);
             }
 
             return partyFriends;
         }
 
+        /// <summary>
+        /// This method returns the shortest name in the list provded
+        /// </summary>
+        /// <param name="list"></param>
+        /// <returns></returns>
         public static string GetPartyFriend(List<string> list)
         {
-            string shortestName = list[0];
+            if (list == null)
+            {
+                throw new ArgumentNullException("list", "The list cannot be null.");
+            }
+
+            string shortestName = list.Count > 0 ? list[0] : string.Empty;
             for (var i = 0; i < list.Count; i++)
             {
                 if (list[i].Length < shortestName.Length)
