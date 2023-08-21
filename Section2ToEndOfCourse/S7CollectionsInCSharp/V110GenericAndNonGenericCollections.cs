@@ -32,6 +32,7 @@ namespace S7CollectionsInCSharp
             string animal2 = "Dog";
             string animal3 = "walrus";
 
+            // LISTS!!!!
             List<string> myList = new List<string>();
             myList.Add(animal1);
             myList.Add(animal2);
