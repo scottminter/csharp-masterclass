@@ -4,6 +4,8 @@ using S9InheritanceAndOOP.V131InheritanceDemo;
 using S9InheritanceAndOOP.V133InheritanceChallenge;
 using S9InheritanceAndOOP.V135InterfacesIntro;
 using S9InheritanceAndOOP.V136CreatingInterfaces;
+using S9InheritanceAndOOP.V137IEnumeratorAndIEnumerable;
+using S9InheritanceAndOOP.V138IEnumerableExample1;
 
 Console.WriteLine("** Section 9: Inheritance and OOP **\n");
 
@@ -23,6 +25,13 @@ Console.WriteLine("** Section 9: Inheritance and OOP **\n");
 
 //Console.WriteLine("==> V136: Creating Interfaces");
 //V136CreatingInterfaces.Lesson();
+
+//Console.WriteLine("==> V137: IEumerator and IEnumerable");
+//V137IEnumeratorAndIEnumerable.Lesson();
+
+Console.WriteLine("==> V138: IEnumerable Example 1");
+V138IEnumerableExample1.Lesson();
+
 
 
 
