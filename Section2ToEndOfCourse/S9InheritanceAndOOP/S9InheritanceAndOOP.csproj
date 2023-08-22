@@ -17,6 +17,7 @@
     <None Remove="V136CreatingInterfaces\" />
     <None Remove="V137IEnumeratorAndIEnumerable\" />
     <None Remove="V138IEnumerableExample1\" />
+    <None Remove="V139IEnumerableExample2\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Test\" />
@@ -28,5 +29,6 @@
     <Folder Include="V136CreatingInterfaces\" />
     <Folder Include="V137IEnumeratorAndIEnumerable\" />
     <Folder Include="V138IEnumerableExample1\" />
+    <Folder Include="V139IEnumerableExample2\" />
   </ItemGroup>
 </Project>
