@@ -44,8 +44,8 @@ Console.WriteLine("Section 7: Collections in C#\n");
 //V113HashTables.Lesson();
 //V113HashTables.Challenge();
 
-//Console.WriteLine("==> Dictionaries");
-//V115Dictionaries.Lesson();
+Console.WriteLine("==> Dictionaries");
+V115Dictionaries.Lesson();
 //var results = V115Dictionaries.Convert(3);
 //Console.WriteLine($"results: {results}");
 
@@ -57,7 +57,7 @@ Console.WriteLine("Section 7: Collections in C#\n");
 //V118StacksInCSharp.Lesson();
 //V118StacksInCSharp.Challenge();
 
-Console.WriteLine("==> Queues in C#");
-V119QueuesInCSharp.Lesson();
+//Console.WriteLine("==> Queues in C#");
+//V119QueuesInCSharp.Lesson();
 
 Console.Read();

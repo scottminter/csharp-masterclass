@@ -9,8 +9,12 @@
 
   <ItemGroup>
     <None Remove="V142PolymorphicParameters\" />
+    <None Remove="V143SealedKeyWord\" />
+    <None Remove="V144HasARelationships\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="V142PolymorphicParameters\" />
+    <Folder Include="V143SealedKeyWord\" />
+    <Folder Include="V144HasARelationships\" />
   </ItemGroup>
 </Project>

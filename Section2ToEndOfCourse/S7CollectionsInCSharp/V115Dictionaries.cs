@@ -13,6 +13,7 @@ namespace S7CollectionsInCSharp
                 {"three", "scott" }
             };
 
+            myDictionary.Add("mytestkey", "mytestvalue");
 
             for (int i = 0; i < myDictionary.Count; i++)
             {
