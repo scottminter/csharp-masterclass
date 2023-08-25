@@ -11,10 +11,16 @@
     <None Remove="V142PolymorphicParameters\" />
     <None Remove="V143SealedKeyWord\" />
     <None Remove="V144HasARelationships\" />
+    <None Remove="V145Abstract\" />
+    <None Remove="V146AbstractAsIsKeywords\" />
+    <None Remove="V148ReadFromTextFile\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="V142PolymorphicParameters\" />
     <Folder Include="V143SealedKeyWord\" />
     <Folder Include="V144HasARelationships\" />
+    <Folder Include="V145Abstract\" />
+    <Folder Include="V146AbstractAsIsKeywords\" />
+    <Folder Include="V148ReadFromTextFile\" />
   </ItemGroup>
 </Project>
