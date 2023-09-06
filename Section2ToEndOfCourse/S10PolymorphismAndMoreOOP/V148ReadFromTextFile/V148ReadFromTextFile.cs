@@ -6,6 +6,7 @@ namespace S10PolymorphismAndMoreOOP.V148ReadFromTextFile
         public static void Lesson()
         {
             var file = "/Users/sminter/Development/csharp-masterclass/Section2ToEndOfCourse/S10PolymorphismAndMoreOOP/V148ReadFromTextFile/TextFile.txt";
+
             // Example 1 - reading text
             string fileText = System.IO.File.ReadAllText(@file);
 

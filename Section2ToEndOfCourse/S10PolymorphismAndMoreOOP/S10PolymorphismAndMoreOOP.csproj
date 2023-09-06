@@ -14,6 +14,7 @@
     <None Remove="V145Abstract\" />
     <None Remove="V146AbstractAsIsKeywords\" />
     <None Remove="V148ReadFromTextFile\" />
+    <None Remove="V149WriteToTextFile\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="V142PolymorphicParameters\" />
@@ -22,5 +23,6 @@
     <Folder Include="V145Abstract\" />
     <Folder Include="V146AbstractAsIsKeywords\" />
     <Folder Include="V148ReadFromTextFile\" />
+    <Folder Include="V149WriteToTextFile\" />
   </ItemGroup>
 </Project>
